@@ -1,162 +1,191 @@
-<h1 align="center">En Yi — Personal Portfolio</h1>
+<div align="center">
 
-<p align="center">
-  A personal website showcasing my background, skills, achievements, and projects.<br>
-  Built with HTML, CSS, and JavaScript.
-</p>
+<sub>THE PERSONAL PORTFOLIO OF</sub>
 
-<p align="center">
-  <a href="https://enyiportfolio.netlify.app/"><strong>🌐 EXPLORE THE LIVE PORTFOLIO →</strong></a><br>
-  <sub>Discover my story, explore my projects, and get in touch.</sub>
-</p>
+# TEOH EN YI
+
+### A little about me. A closer look at what I create.
+
+A collection of projects, ideas, and lessons from my journey in web development.
+
+**[Explore the website ↗](https://enyiportfolio.netlify.app/)**
+
+[Meet me](#01--behind-the-portfolio) · [Explore the work](#03--selected-work) · [Run locally](#05--take-a-look-under-the-hood)
+
+**HTML5** &nbsp; / &nbsp; **CSS3** &nbsp; / &nbsp; **JavaScript**
+
+</div>
 
 ---
 
-## Overview
+## 01 / Behind the portfolio
 
-I'm **Teoh En Yi**, and this portfolio brings together my learning journey, technical interests, and creative work. Across five pages, it introduces my background, highlights my skills, and presents projects through images, interactive details, and demonstrations.
+Hi, I'm **En Yi**. This is my space to share what I'm learning and what I'm building—from a shopping app concept to websites exploring travel, fitness, and visual storytelling.
 
-Developed as a Web Fundamentals project, the website uses plain HTML, CSS, and JavaScript to demonstrate page layout, responsive styling, navigation, and interactive components.
+Created for **Web Fundamentals**, this portfolio brings my background, education, skills, and selected projects into one experience. Each page gives a different view of my progress, with images, interactive project details, and demonstrations that make the work easier to explore.
 
-## Contents
+> **Start with the work. Stay for the story.**  
+> Visit the projects, explore the details, then get to know the person behind them.
 
-- [Features](#features)
-- [Technology](#technology)
-- [Pages](#pages)
-- [Featured Projects](#featured-projects)
-- [Folder Structure](#folder-structure)
-- [Getting Started](#getting-started)
-- [Customization](#customization)
-- [Refinement Checklist](#refinement-checklist)
-- [Author](#author)
-- [License](#license)
+## 02 / Take the scenic route
 
-## Features
+**[Open the live portfolio →](https://enyiportfolio.netlify.app/)**
 
-- **Personal introduction:** Homepage with an overview of my interests, skills, and featured work.
-- **About section:** Personal background, education, and achievements.
-- **Skills showcase:** Cards and carousel navigation for exploring different skill areas.
-- **Project gallery:** Project cards, detail modals, images, and links to demonstrations.
-- **Contact page:** Contact information, social links, an embedded map, and a demonstration form.
-- **Responsive styling:** Layout rules and navigation controls for different screen sizes.
-- **Interactive details:** Image slideshows, smooth scrolling, and back-to-top controls.
+| First, say hello | Then, explore | Finally, connect |
+| :--- | :--- | :--- |
+| **Home + About**<br>My introduction, education, and achievements. | **Skills + Projects**<br>The areas I'm learning and the work I've brought together. | **Contact**<br>Contact information and links to my social profiles. |
 
-## Technology
+<details>
+<summary><strong>Open the five-page guide</strong></summary>
 
-| Technology | Purpose |
-| --- | --- |
-| HTML5 | Page structure, navigation, forms, and images |
-| CSS3 | Styling, layout, responsive rules, and visual transitions |
-| JavaScript | Carousels, project modals, navigation, and form feedback |
-| Google Maps Embed | Map embedded on the contact page |
-
-Styles and scripts are embedded in the HTML pages. The portfolio requires no package installation, framework, database, or build step.
-
-The technologies mentioned inside individual project descriptions refer to those showcased projects, not necessarily to this portfolio's implementation.
-
-## Pages
-
-| Page | File | Content |
+| Page | What you'll find | Source |
 | --- | --- | --- |
-| Home | [`home.html`](home.html) | Introduction, skills overview, and featured projects |
-| About | [`aboutme.html`](aboutme.html) | Biography, education, and achievements |
-| Skills | [`skills.html`](skills.html) | Skill areas and development interests |
-| Projects | [`project.html`](project.html) | Project gallery and detailed project modals |
-| Contact | [`contact.html`](contact.html) | Contact information, social links, map, and form |
+| Home | A first look at my interests, skills, and featured work | [home.html](home.html) |
+| About | My background, education, and achievements | [aboutme.html](aboutme.html) |
+| Skills | Skill categories and development interests | [skills.html](skills.html) |
+| Projects | A gallery with images, detail modals, and demo links | [project.html](project.html) |
+| Contact | Contact information, social links, map, and a demonstration form | [contact.html](contact.html) |
 
-## Featured Projects
+</details>
 
-The portfolio includes presentations of the following work:
+## 03 / Selected work
 
-| Project | Showcase |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### OffBuy
+
+<img src="image/OffBuy1.jpg" alt="OffBuy shopping app project artwork" width="420">
+
+**Shopping app concept**  
+>A look at a shopping experience through interface designs, project details, and a video demonstration.
+
+[Explore the project gallery →](https://enyiportfolio.netlify.app/project.html)
+
+</td>
+<td width="50%" valign="top">
+
+### HopNTrip
+
+<img src="image/HopNTrip2.jpg" alt="HopNTrip tourism project artwork" width="420">
+
+**Sabah tourism website**  
+>A travel-focused project presenting destinations and tourism services through a multi-page website.
+
+[Explore the project gallery →](https://enyiportfolio.netlify.app/project.html)
+
+</td>
+</tr>
+</table>
+
+**Also in the collection**
+
+| Project | Creative focus |
 | --- | --- |
-| OffBuy | Shopping app concept with screenshots and a local demonstration video |
-| HopNTrip | Sabah tourism website |
-| Zogin | Fitness website |
-| Architecture Portfolio | Architectural work and visual design |
-| Personal Blog | Blog website design |
+| **Zogin** | Fitness website presentation |
+| **Architecture Portfolio** | Architectural imagery and visual design |
+| **Personal Blog** | Content presentation and blog layout |
 
-This repository contains the portfolio and its presentation assets. The complete source code of each showcased project is not included.
+This repository holds the portfolio and its showcase assets. Individual project implementations are maintained separately.
 
-## Folder Structure
+## 04 / The details that bring it together
 
-```text
-enyi-portfolio/
-├── README.md
-├── home.html
-├── aboutme.html
-├── skills.html
-├── project.html
-├── contact.html
-├── image/
-│   └── ...                 # Portraits, backgrounds, icons, and project images
-└── video/
-    └── OffBuy.mp4           # OffBuy demonstration video
-```
+| Detail | Experience |
+| --- | --- |
+| **Project modals** | Explore more information without leaving the gallery. |
+| **Carousels and slideshows** | Move through skill areas and visual content. |
+| **Responsive layouts** | Adapt page layouts and navigation to different screen sizes. |
+| **Smooth scrolling** | Move between sections and return to the top. |
+| **Consistent navigation** | Follow a familiar route across all five pages. |
 
-Keep the media folders beside the HTML files. Pages reference them using relative paths such as `image/me.jpeg` and `video/OffBuy.mp4`.
+### Built with the fundamentals
 
-## Getting Started
+**HTML** gives the pages structure. **CSS** shapes the layout, visual style, and transitions. **JavaScript** handles navigation controls, carousels, modals, and form feedback. The contact page also includes a **Google Maps embed**.
 
-### Open in a Browser
+The portfolio uses embedded styles and scripts with no framework or build step. Technologies listed within individual project descriptions belong to those showcased projects.
 
-1. Download or clone the repository.
-2. Extract the ZIP if you downloaded an archive.
-3. Open `home.html` in a modern browser.
-4. Use the navigation menu to explore the other pages.
+## 05 / Take a look under the hood
 
-### Run a Local Server
+### Run it locally
 
-If Python 3 is installed, open a terminal in the project folder and run:
+Download or clone the repository, extract it if needed, and open **`home.html`** in your browser.
+
+For a local server, run this from the project folder with Python 3 installed:
 
 ```bash
 python -m http.server 8000
 ```
 
-On Windows, you can also run:
+On Windows, `py -m http.server 8000` also works.
 
-```powershell
-py -m http.server 8000
+Open **[localhost:8000/home.html](http://localhost:8000/home.html)**. Stop the server with **Ctrl+C**. External destinations and the embedded map require an internet connection.
+
+<details>
+<summary><strong>Explore the folder structure</strong></summary>
+
+```text
+enyi-portfolio/
+├── README.md
+├── home.html          # Introduction and featured work
+├── aboutme.html       # Background and achievements
+├── skills.html        # Skills showcase
+├── project.html       # Project gallery and details
+├── contact.html       # Contact page
+├── image/             # Portraits, backgrounds, icons, and project images
+└── video/
+    └── OffBuy.mp4      # Project demonstration
 ```
 
-Visit **[http://localhost:8000/home.html](http://localhost:8000/home.html)**.
+Keep `image/` and `video/` beside the HTML files so relative paths resolve correctly. The structure above follows the supplied source project.
 
-Press **Ctrl+C** in the terminal to stop the server.
+</details>
 
-An internet connection is needed for external project links, social destinations, and the embedded map. Local pages and media can be previewed without a backend.
+<details>
+<summary><strong>Where to make changes</strong></summary>
 
-## Customization
-
-| Change | Where to edit |
+| Update | Edit |
 | --- | --- |
-| Introduction and homepage content | `home.html` |
+| Introduction and featured projects | `home.html` |
 | Biography, education, and achievements | `aboutme.html` |
-| Skill categories and descriptions | `skills.html` |
-| Project cards and modal data | `project.html` |
-| Featured project modal data | `home.html` |
+| Skill descriptions | `skills.html` |
+| Gallery and project modal data | `project.html` |
 | Contact information and form behaviour | `contact.html` |
-| Photos, icons, and backgrounds | `image/` and the corresponding page references |
-| OffBuy demonstration | `video/OffBuy.mp4` |
+| Visual assets and video | `image/`, `video/`, and their page references |
 
-Navigation and footer content are repeated across pages, so update all relevant files when changing shared elements. Keep asset names and capitalization consistent.
+Apply shared navigation and footer updates across the pages. Match filename capitalization when changing media paths.
 
+</details>
 
-## Author
+## 06 / The next iteration
 
-**Teoh En Yi**  
-Personal portfolio developed for Web Fundamentals.
+A portfolio grows with the work. These are the priorities for future refinement:
 
-Contact details and social profiles are available on the website's [Contact page](contact.html).
+- [ ] **Tell stronger project stories** — Explain the purpose, my contribution, and the outcome of each new project.
+- [ ] **Make the first visit lighter** — Optimize images and video for faster loading.
+- [ ] **Make every interaction accessible** — Review keyboard controls, focus states, image descriptions, and contrast.
+- [ ] **Polish every screen size** — Check menus, cards, and modals on mobile, tablet, and desktop.
+- [ ] **Simplify the code behind the design** — Extract reusable styles and scripts into shared files.
+- [ ] **Complete the contact journey** — Connect the demonstration form to message delivery and test its feedback.
+- [ ] **Keep the experience dependable** — Check links, media, and browser errors after updates.
 
-## License
+---
 
-No license file is currently included. This README does not grant reuse rights for the code, personal photographs, or other media. Third-party assets remain subject to their respective owners' terms.
+<div align="center">
 
+### Thanks for taking a look.
 
+**Designed and developed by Teoh En Yi**  
+Web Fundamentals · Personal Portfolio
 
+**[Visit my portfolio ↗](https://enyiportfolio.netlify.app/)** · **[Get in touch ↗](https://enyiportfolio.netlify.app/contact.html)**
 
-Contact details and social profiles are available on the website's [Contact page](contact.html).
+</div>
 
-## License
+<details>
+<summary>Assets and licensing</summary>
 
-No license file is currently included. This README does not grant reuse rights for the code, personal photographs, or other media. Third-party assets remain subject to their respective owners' terms.
+No project license file is included in the supplied source. This README does not grant reuse rights for code, personal photographs, or media. Third-party assets remain subject to their respective owners' terms.
+
+</details>
+
