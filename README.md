@@ -5,11 +5,16 @@
   Built with HTML, CSS, and JavaScript.
 </p>
 
+<p align="center">
+  <a href="https://enyiportfolio.netlify.app/"><strong>🌐 EXPLORE THE LIVE PORTFOLIO →</strong></a><br>
+  <sub>Discover my story, explore my projects, and get in touch.</sub>
+</p>
+
 ---
 
 ## Overview
 
-This portfolio presents **Teoh En Yi's** learning journey and creative work through a five-page website. Visitors can explore my background and education, browse skill areas, view featured projects, and find ways to get in touch.
+I'm **Teoh En Yi**, and this portfolio brings together my learning journey, technical interests, and creative work. Across five pages, it introduces my background, highlights my skills, and presents projects through images, interactive details, and demonstrations.
 
 Developed as a Web Fundamentals project, the website uses plain HTML, CSS, and JavaScript to demonstrate page layout, responsive styling, navigation, and interactive components.
 
@@ -22,9 +27,7 @@ Developed as a Web Fundamentals project, the website uses plain HTML, CSS, and J
 - [Folder Structure](#folder-structure)
 - [Getting Started](#getting-started)
 - [Customization](#customization)
-- [Uploading to GitHub](#uploading-to-github)
-- [Current Limitations](#current-limitations)
-- [Future Improvements](#future-improvements)
+- [Refinement Checklist](#refinement-checklist)
 - [Author](#author)
 - [License](#license)
 
@@ -137,56 +140,20 @@ An internet connection is needed for external project links, social destinations
 
 Navigation and footer content are repeated across pages, so update all relevant files when changing shared elements. Keep asset names and capitalization consistent.
 
-## Uploading to GitHub
-
-Upload the HTML files and the `image/` and `video/` folders into the repository root, alongside this README.
-
-### Video Size
-
-The inspected extracted project's `video/OffBuy.mp4` is approximately **47.7 MiB**. This exceeds GitHub's **25 MiB per-file browser upload limit**, but is below its **100 MiB regular Git limit**.
-
-To include this version, either:
-
-- Upload it using Git or GitHub Desktop.
-- Compress it below 25 MiB for browser uploading, preserving its filename and path.
-
-The earlier `.7z` archive contained a larger video of approximately **139 MiB**. That version needs compression or Git Large File Storage before it can be stored on GitHub.
-
-If you omit the video, the OffBuy demonstration link will not work until the file is added or its link is replaced.
-
-See [GitHub's file size documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
-
-### Homepage Entry Point
-
-The current homepage is `home.html`. To prepare a conventional root landing page for static hosting:
-
-1. Rename `home.html` to `index.html`.
-2. Update links referencing `home.html` across all pages.
-3. Update the homepage references in this README.
-4. Check navigation and asset loading before publishing.
-
-## Current Limitations
-
-- **Contact form:** JavaScript prevents submission and displays a confirmation message. It does not send email or save messages.
-- **Static content:** Profile information and project details are edited directly in the HTML.
-- **Repeated code:** Shared styles, navigation, and scripts are maintained in multiple pages.
-- **External destinations:** Project links, social links, and the map depend on external services; their availability is not guaranteed.
-- **Media size:** The OffBuy video increases download size and requires special attention during upload.
-
-## Future Improvements
-
-- [ ] Move shared CSS and JavaScript into separate files.
-- [ ] Connect the contact form to a message delivery service.
-- [ ] Optimize project images and the demonstration video.
-- [ ] Add an `index.html` entry point and update internal links.
-- [ ] Review keyboard navigation, focus behaviour, and colour contrast.
-- [ ] Check layouts across mobile, tablet, and desktop screens.
-- [ ] Add automated checks for internal links and missing assets.
 
 ## Author
 
 **Teoh En Yi**  
 Personal portfolio developed for Web Fundamentals.
+
+Contact details and social profiles are available on the website's [Contact page](contact.html).
+
+## License
+
+No license file is currently included. This README does not grant reuse rights for the code, personal photographs, or other media. Third-party assets remain subject to their respective owners' terms.
+
+
+
 
 Contact details and social profiles are available on the website's [Contact page](contact.html).
 
