@@ -8,7 +8,9 @@
 
 A collection of projects, ideas, and lessons from my journey in web development.
 
-**[Explore the website ↗](https://enyiportfolio.netlify.app/)**
+  <a href="https://enyiportfolio.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/%E2%96%B6_Watch_Presentation-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Watch Presentation"/>
+  </a>
 
 [Meet me](#01--behind-the-portfolio) · [Explore the work](#03--selected-work) · [Run locally](#05--take-a-look-under-the-hood)
 
